@@ -39,13 +39,20 @@ page — which is what makes the output consistent across different models and d
 
 ## Quick start
 
-Drop the folder into your agent's skills directory:
+```bash
+npx skills add shaokeyibb/flow-brief
+```
+
+That is the whole install. The CLI finds the agents you already have and asks where to put
+it. To target one directly:
 
 ```bash
-git clone https://github.com/shaokeyibb/flow-brief ~/.claude/skills/flow-brief
-# or the shared agent-skills location
-git clone https://github.com/shaokeyibb/flow-brief ~/.agents/skills/flow-brief
+npx skills add shaokeyibb/flow-brief -a claude-code
+npx skills add shaokeyibb/flow-brief -a cursor
 ```
+
+Works with any agent that reads skills — Claude Code, Cursor, Codex, Copilot, Gemini CLI,
+opencode, Windsurf, Zed and [many more](https://www.skills.sh/).
 
 Then just ask, in whatever words you would normally use:
 
@@ -168,13 +175,19 @@ AI 只负责填内容,**不允许重新设计版面** —— 这正是产出能�
 
 ### 快速开始
 
-把整个目录放进你的 skills 目录:
+```bash
+npx skills add shaokeyibb/flow-brief
+```
+
+装完了。CLI 会自动找到你已经装了哪些 agent,然后问你装到哪儿。想直接指定的话:
 
 ```bash
-git clone https://github.com/shaokeyibb/flow-brief ~/.claude/skills/flow-brief
-# 或者通用的 agent-skills 位置
-git clone https://github.com/shaokeyibb/flow-brief ~/.agents/skills/flow-brief
+npx skills add shaokeyibb/flow-brief -a claude-code
+npx skills add shaokeyibb/flow-brief -a cursor
 ```
+
+支持所有能读 skill 的 agent —— Claude Code、Cursor、Codex、Copilot、Gemini CLI、
+opencode、Windsurf、Zed 等[几十种](https://www.skills.sh/)。
 
 然后用你平常说话的方式提要求就行:
 
