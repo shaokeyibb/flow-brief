@@ -1,6 +1,6 @@
 ---
 name: flow-brief
-description: Produce a single-file HTML swimlane brief that walks a system, module, or upcoming feature past a non-specialist reader, with provenance badges that separate what is measured from what is merely intended. Use this whenever someone needs to explain how something works to people outside the team — a flow diagram, an architecture walkthrough, an onboarding page, a design-review handout, a 介绍图 or 泳道图 — and especially when they describe the need without naming a format: "explain this to my boss", "draw how the data moves", "something the new hire can read", "I have to present this next week".
+description: 'Produce a single-file HTML swimlane brief that walks a system, module, or upcoming feature past a non-specialist reader, with provenance badges that separate what is measured from what is merely intended. Use this whenever someone needs to explain how something works to people outside the team — a flow diagram, an architecture walkthrough, an onboarding page, a design-review handout, a 介绍图 or 泳道图 — and especially when they describe the need without naming a format: "explain this to my boss", "draw how the data moves", "something the new hire can read", "I have to present this next week".'
 ---
 
 # Flow Brief
